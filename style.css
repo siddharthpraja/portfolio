@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Ubuntu&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+
+
+/* Circle css*/
+.circle {
+  height: 24px;
+  width: 24px;
+  border-radius: 24px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 99999999; /* so that it stays on top of all other elements */
+}
+
+/* Navbar css*/
+.navContainer,
+.navbar {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 5vh;
+  margin-top: 10vh;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+
+
+/* hero css*/
+.hero {
+  width: 94%;
+  margin: auto;
+  border: 1px solid rgb(65, 65, 65);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+
+/* Navbar end*/
+.navbar {
+  margin-top: 1.7em;
+}
+
+/* About css*/
+.About {
+  width: 94%;
+  margin: auto;
+  border: 1px solid rgb(65, 65, 65);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Projects Text css*/
+.works {
+  width: 94%;
+  height: 270vh;
+  margin: 2em auto;
+  position: relative;
+}
+
+.works p {
+  color: rgb(216, 88, 42);
+}
+
+.works .textcontiner {
+  height: 30vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.workText {
+  position: absolute;
+  margin-top: 25vh;
+}
+
+.works .worksText {
+  display: flex;
+  align-items: end;
+}
+
+/* project scroll animmation */
+
+#projectsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+#project {
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  opacity: 1;
+  transform: translateY(150px);
+}
+
+
+/* dark mode Effect */
+
+
