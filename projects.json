@@ -1,34 +1,34 @@
 [
   {
+    "title": "Clip-CSS",
+    "subtitle": "An React tailwind & cSS component library",
+    "description": "This is the combination of custom prebuild components which help to create your website faster.",
+    "link": "https://clipcss.sidth.tech/",
+    "link2": "https://github.com/siddharthpraja",
+    "image_url": "Images/clip-css.png"
+  },
+  {
+    "title": "Qresume",
+    "subtitle": "A Quick Resume Creating WebApp",
+    "description": "Better tamplates and best resume option which help to create your perfect.",
+    "link": "https://qresume.sidth.tech/",
+    "link2": "https://github.com/siddharthpraja",
+    "image_url": "Images/qresume.png"
+  },
+  {
+    "title": "AccountBiz",
+    "subtitle": "Check your accounting in a minute",
+    "description": "Accounting Software Saas Based Application. Framework used Nextjs and Prisma",
+    "link": "https://accountbiz-app.vercel.app/",
+    "link2": "https://github.com/siddharthpraja",
+    "image_url": "Images/accountbiz.png"
+  },
+  {
     "title": "Search Soul",
     "subtitle": "Missing Person Locator System",
     "description": "This website for helping missing people in Mumbai. Framework used Nextjs and Pocketbase",
     "link": "https://searchsoul.vercel.app/",
     "link2": "https://github.com/siddharthpraja/Missingapp.git",
-    "image_url": "Images/project1.webp"
-  },
-  {
-    "title": "My Blog Section",
-    "subtitle": "Blog on real world social issues",
-    "description": "This is a part of Search Soul whare we can read the latest social issue also can add your own blog for given topics.",
-    "link": "https://searchsoul.vercel.app/blog",
-    "link2": "https://github.com/siddharthpraja/Missingapp.git",
-    "image_url": "Images/project2.webp"
-  },
-  {
-    "title": "Quick Resume",
-    "subtitle": "A Quick Resume Creating WebApp",
-    "description": "Better tamplates and best resume option which help to create your perfect.",
-    "link": "https://qresume.vercel.app/",
-    "link2": "https://github.com/siddharthpraja/quickresume.git",
-    "image_url": "Images/project3.webp"
-  },
-  {
-    "title": "Future projects",
-    "subtitle": "This project base on new orders of Websites",
-    "description": "I'm good in Nextjs, Reactjs, Python etc. also in mongodb and Prisma MY SQL.",
-    "link": "https://www.gemsfabric.me/",
-    "link2": "https://github.com/siddharthpraja/Accountbiz.git/",
-    "image_url": "Images/project4.webp"
+    "image_url": "Images/serchsoul.png"
   }
 ]

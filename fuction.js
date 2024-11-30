@@ -82,14 +82,14 @@ function renderProjects(projects) {
   projects.forEach((project) => {
     const projectElement = `
             <div class="mt-[50%] md:flex w-full m-auto gap-10 md:items-center" id="project">
-            <div class="md:w-3/5 lg:1/2 ripple-container">
-                <img src=${project.image_url} class="w-full"  width="100" height="100"/>
+            <div class="md:w-3/5 lg:1/2">
+                <img src=${project.image_url} class="w-full border  border-orange-500"  width="100" height="100"/>
                 </div>
                 <div class="text-start mt-10 md:mt-0 md:w-2/5 lg:1/2">
-                    <h4 class="text-2xl text-gray-950 dark:text-gray-50 lg:text-6xl" >${project.title}</h4>
-                    <h2 class="text-md text-gray-500 lg:text-3xl">${project.subtitle}</h2>
-                    <h6 class="text-xs lg:text-lg ">${project.description}</h6>
-                    <div class="mt-3 text-xs lg:text-sm flex gap-3">
+                    <h4 class="text-2xl font-bold text-gray-950 dark:text-gray-50 lg:text-6xl" >${project.title}</h4>
+                    <h2 class="text-md text-orange-500 lg:text-2xl">${project.subtitle}</h2>
+                    <h6 class="text-xs md:text-base ">${project.description}</h6>
+                    <div class="mt-3 text-xs lg:text-xs flex gap-3">
                     <a class="p-2 lg:p-3 bg-orange-500 text-gray-50 outline outline-2 outline-orange-800 rounded-full " href="${project.link}"><button>Visit Now</button></a>
                     <a class="p-2 lg:p-3  bg-gray-950 dark:bg-gray-50  text-gray-50 dark:text-gray-950 rounded-full outline outline-2 dark:outline-orange-500 outline-orange-800" href="${project.link2}">Git Hub</a>
                     </div>

@@ -19,31 +19,31 @@
                     document.documentElement.classList.remove('dark')
             }
         </script>
-    <title>Siddharth Praja</title>
+    <title>Gautam Praja</title>
   </head>
   <body class="dark:text-gray-50 dark:bg-gray-950 text-gray-950 bg-gray-50" >
     <!-- header -->
     <header>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
-      <div class="circle"></div>
+      <div class="circle hidden lg:flex"></div>
+      <div class="circle hidden lg:flex"></div>
+      <div class="circle hidden lg:flex"></div>
+      <div class="circle hidden lg:flex"></div>
+      <div class="circle hidden lg:flex"></div>
+      <div class="circle hidden lg:flex"></div>
+      <div class="circle hidden lg:flex"></div>
+      <div class="circle hidden lg:flex"></div>
+      <div class="circle hidden lg:flex"></div>
+      <div class="circle hidden lg:flex"></div>
+      <div class="circle hidden lg:flex"></div>
+      <div class="circle hidden lg:flex"></div>
+      <div class="circle hidden lg:flex"></div>
+      <div class="circle hidden lg:flex"></div>
+      <div class="circle hidden lg:flex"></div>
+      <div class="circle hidden lg:flex"></div>
+      <div class="circle hidden lg:flex"></div>
+      <div class="circle hidden lg:flex"></div>
+      <div class="circle hidden lg:flex"></div>
+      <div class="circle hidden lg:flex"></div>
       <div class="navContainer">
             <div>
               <h2 class="text-[7px] md:text-[9px] lg:text-[10px]">Personal <br />Portfolio (2024)</h2>
@@ -64,13 +64,14 @@
     </header>
 
     <!-- hero -->
-    <div class="border w-[90%] m-auto border-gray-500 h-[10vh] md:h-[20vh] lg:h-[35vh] relative overflow-hidden text-center">
+    <div class="border w-[90%] m-auto border-gray-500 h-[10vh] md:h-[20vh] lg:h-[35vh] overflow-hidden relative flex flex-col items-center justify-center">
+
+      <div class="text-4xl md:text-8xl lg:text-[20vh] w-max z-20 dark:text-orange-50 text-gray-950 top-2 left-5 font-bold">Gautam Praja</div>
       <div
-        class="md:text-[30vh] lg:text-[50vh] text-[12vh] text-orange-600 absolute top-[-5vh] md:top-[-13vh] lg:top-[-22vh]"
-      >
-        © 2024
-      </div>
-      <div class="md:text-[18vh] lg:text-[35vh] text-[8vh] dark:text-orange-50 text-gray-950  absolute top-[-2vh] md:top-[-5vh] lg:top-[-10vh]">Gautam Praja</div>
+      class="text-8xl md:text-[35vh] lg:text-[55vh] w-max text-orange-500 absolute"
+    >
+      © 2024
+    </div>
     </div>
 
     <!-- navbar -->
@@ -89,13 +90,13 @@
     </div>
 
     <!-- About -->
-    <div class="border m-auto border-gray-500 w-[90%] h-max mt-[10%]" >
+    <div id="about" class="border m-auto border-gray-500 w-[90%] h-max mt-[10%]" >
       <div class="text-xs lg:text-5xl md:text-xl  tracking-wider  m-2 lg:m-6 border border-gray-500 mb-[-10px] lg:mb-[-30px] mr-[-10px] lg:mr-[-30px]">
         <div>
           <h2 class="center-h p-2 lg:p-8 ">
-            Hey! I'm Gautam Praja, <br />
+            Hey! I'm Siddharth Praja, <br />
             22 years old Website Devloper. <br />
-            I was born in Mumbai (India) city of Dreams,<br />
+            I was bron in Mumbai (India) city of Dreams,<br />
           </h2>
         </div>
         <div>
@@ -109,7 +110,7 @@
     <div>
 
     <!-- Work -->
-    <div class="works">
+    <div id="work" class="works">
       <!-- Heading Text -->
       <div class="textcontiner mt-[10%]">
         <div class="workText text-4xl md:text-6xl">
@@ -126,7 +127,7 @@
       <div id="projectsContainer"></div>
 
     <header>
-      <div class="navContainer">
+      <div id="contact" class="navContainer">
         <div>
           <h2 class="text-[7px] md:text-[9px] lg:text-[10px]">Personal <br />Portfolio (2024)</h2>
         </div>
@@ -145,17 +146,20 @@
       </div>
     </header>
 
-    <div class="border border-gray-500 flex w-full items-center">
+    <form name="submit-to-google-sheet" class="border border-gray-500 flex w-full items-center">
       <input
-        type="text"
+        type="email"
+        name="email"
         class="w-5/6 lg:text-6xl md:text-5xl md:p-5 lg:p-10 bg-transparent border border-gray-500 text-orange-500 text-center "
         placeholder="Yourmail@gmail.com"
         required
       />
+
       <div class="w-1/6 lg:text-7xl md:text-4xl text-orange-500 text-center">
-      <button >(↗)</button>
+      <button type="submit" >(↗)</button>
     </div>
-    </div>
+    </form>
+    <div class="text-[13px] pt-2 text-green-500" id="alreatmsg"></div>
 
     <div class="navbar">
       <div class="text-[7px] md:text-[9px] lg:text-[10px] text-gray-950 dark:text-gray-50"><h1>(07)</h1></div>
@@ -171,9 +175,17 @@
       <div class="text-[7px] md:text-[9px] lg:text-[10px] text-gray-950 dark:text-gray-50"><h1>(03)</h1></div>
     </div>
 
-    <div class="border border-gray-500 h-[10vh] md:h-[20vh] lg:h-[35vh] relative overflow-hidden text-center">
-      <div class="md:text-[30vh] lg:text-[50vh] text-[13vh] text-orange-600 absolute top-[-5vh] md:top-[-13vh] lg:top-[-22vh]">© 2024</div>
+    <div class="border w-[90%] m-auto border-gray-500 h-[10vh] md:h-[20vh] lg:h-[35vh] overflow-hidden relative flex flex-col items-center justify-center">
+
+      <div
+      class="text-8xl md:text-[30vh] lg:text-[50vh] w-max text-orange-500 absolute"
+    >
+      © 2024
     </div>
+    </div>
+    <!-- https://script.google.com/macros/s/AKfycbzgmnbx6y3XxbE3wpYSHF89SSeKmGavzYU78vSt4POh5T2WCgWVWlGENKbsP9CdpSeS/exec -->
+     <!-- AKfycbzgmnbx6y3XxbE3wpYSHF89SSeKmGavzYU78vSt4POh5T2WCgWVWlGENKbsP9CdpSeS -->
+      <!-- https://script.google.com/macros/library/d/1UQHEATfhqvquZfmRLvl3mkB3egc1SJxTrf28lxuWq68S_1i7J-5GmZXv/1 -->
 
     <header>
       <div class="navContainer pb-10">
@@ -184,7 +196,7 @@
           <h1 class="text-[7px] md:text-[9px] lg:text-[10px]  text-center">UI/UX DESIGN AND DIGITAL BRANDING</h1>
         </div>
         <div>
-          <h3 class="text-[7px] md:text-[9px] lg:text-[10px]  text-end">Devloped by Gautam Praja</h3>
+          <h3 class="text-[7px] md:text-[9px] lg:text-[10px]  text-end">Devloped by Siddharth Praja</h3>
         </div>
       </div>
     </header>
@@ -199,5 +211,23 @@
 
     <!-- Our js -->
     <script src="fuction.js"></script>
+    
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzgmnbx6y3XxbE3wpYSHF89SSeKmGavzYU78vSt4POh5T2WCgWVWlGENKbsP9CdpSeS/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById('alreatmsg')
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = 'Thanks for Contacting, I defintly reply with in 24 hours.'
+            setTimeout(() => {
+              msg.innerHTML = ''
+            }, 5000)
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
   </body>
 </html>
