@@ -81,11 +81,11 @@ function renderProjects(projects) {
   const container = document.getElementById("projectsContainer");
   projects.forEach((project) => {
     const projectElement = `
-            <div class="mt-[50%] md:flex w-full m-auto gap-10 md:items-center" id="project">
+            <div class="my-10 md:my-[20%] flex flex-col md:flex-row w-full m-auto gap-10 md:items-center" id="project">
             <div class="md:w-3/5 lg:1/2">
                 <img src=${project.image_url} class="w-full   width="100" height="100"/>
                 </div>
-                <div class="text-start mt-10 md:mt-0 md:w-2/5 lg:1/2">
+                <div class="text-start  md:mt-0 md:w-2/5 lg:1/2">
                     <h4 class="text-2xl font-bold text-gray-950 dark:text-gray-50 lg:text-6xl" >${project.title}</h4>
                     <h2 class="text-md text-orange-500 lg:text-2xl">${project.subtitle}</h2>
                     <h6 class="text-xs md:text-base ">${project.description}</h6>
