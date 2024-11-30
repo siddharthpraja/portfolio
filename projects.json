@@ -5,7 +5,7 @@
     "description": "This is the combination of custom prebuild components which help to create your website faster.",
     "link": "https://clipcss.sidth.tech/",
     "link2": "https://github.com/siddharthpraja",
-    "image_url": "Images/clip-css.png"
+    "image_url": "Images/clip-css.webp"
   },
   {
     "title": "Qresume",
@@ -13,7 +13,7 @@
     "description": "Better tamplates and best resume option which help to create your perfect.",
     "link": "https://qresume.sidth.tech/",
     "link2": "https://github.com/siddharthpraja",
-    "image_url": "Images/qresume.png"
+    "image_url": "Images/qresume.webp"
   },
   {
     "title": "AccountBiz",
@@ -21,7 +21,7 @@
     "description": "Accounting Software Saas Based Application. Framework used Nextjs and Prisma",
     "link": "https://accountbiz-app.vercel.app/",
     "link2": "https://github.com/siddharthpraja",
-    "image_url": "Images/accountbiz.png"
+    "image_url": "Images/accountbiz.webp"
   },
   {
     "title": "Search Soul",
@@ -29,6 +29,6 @@
     "description": "This website for helping missing people in Mumbai. Framework used Nextjs and Pocketbase",
     "link": "https://searchsoul.vercel.app/",
     "link2": "https://github.com/siddharthpraja/Missingapp.git",
-    "image_url": "Images/serchsoul.png"
+    "image_url": "Images/serchsoul.webp"
   }
 ]
