@@ -83,7 +83,7 @@ function renderProjects(projects) {
     const projectElement = `
             <div class="mt-[50%] md:flex w-full m-auto gap-10 md:items-center" id="project">
             <div class="md:w-3/5 lg:1/2">
-                <img src=${project.image_url} class="w-full border  border-orange-500"  width="100" height="100"/>
+                <img src=${project.image_url} class="w-full   width="100" height="100"/>
                 </div>
                 <div class="text-start mt-10 md:mt-0 md:w-2/5 lg:1/2">
                     <h4 class="text-2xl font-bold text-gray-950 dark:text-gray-50 lg:text-6xl" >${project.title}</h4>
